@@ -1,5 +1,6 @@
 package arrays;
 
+import static java.lang.Math.sqrt;
 
 public class ArrayTemperatura {
     public static void main(String[] args){
@@ -28,6 +29,19 @@ public class ArrayTemperatura {
         for (int result: vetorD
              ) {
             System.out.println(result);
+        }
+        // QUESTÃO 4
+        int[] vetorE = new int[15];
+        int[] vetorF= new int[vetorE.length];
+        for(int k=0; k < vetorE.length; k++){
+            vetorE[k] = k;
+        }
+        for(int s= 0; s < vetorE.length; s++){
+            vetorF[s]= (int) sqrt(vetorE[s]);
+        }
+        for (int resultado: vetorF
+        ) {
+            System.out.println(resultado);
         }
     }
 }
