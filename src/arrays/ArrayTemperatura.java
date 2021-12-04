@@ -14,6 +14,12 @@ public class ArrayTemperatura {
         for( int vetores : vetorB){
             System.out.println(vetores);
         }*/
-
+        int[] vetorC = new int[15];
+        for(int i=0; i < vetorC.length; i++){
+            vetorC[i] = i;
+        }
+        for(int vetoresC : vetorC){
+            System.out.println(vetoresC);
+        }
     }
 }
