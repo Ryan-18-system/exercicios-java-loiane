@@ -3,23 +3,31 @@ package arrays;
 
 public class ArrayTemperatura {
     public static void main(String[] args){
+
+        // QUESTÃO 2
+        /*
         int[] vetorA = {1,2,3,4,5,6,7,8,};
         int[] vetorB = new int[vetorA.length];
-
-        // QUESTÃO DOIS DA LISTA DE ARRAY
-        /*for(int i=0; i < vetorA.length; i++){
+        for(int i=0; i < vetorA.length; i++){
             vetorB[i] = vetorA[i]*2;
 
         }
         for( int vetores : vetorB){
             System.out.println(vetores);
         }*/
+
+        // QUESTÃO 3
         int[] vetorC = new int[15];
+        int[] vetorD= new int[vetorC.length];
         for(int i=0; i < vetorC.length; i++){
             vetorC[i] = i;
         }
-        for(int vetoresC : vetorC){
-            System.out.println(vetoresC);
+        for(int j= 0; j < vetorC.length; j++){
+            vetorD[j]= vetorC[j]*vetorC[j];
+        }
+        for (int result: vetorD
+             ) {
+            System.out.println(result);
         }
     }
 }
