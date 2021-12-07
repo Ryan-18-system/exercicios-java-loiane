@@ -44,4 +44,6 @@ public class ArrayTemperatura {
             System.out.println(resultado);
         }
     }
+
+    /* Testando uma coisa */
 }
