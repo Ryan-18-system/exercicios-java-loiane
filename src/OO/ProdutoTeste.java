@@ -10,7 +10,5 @@ public class ProdutoTeste {
         Produto produto2 = new Produto(10.80, "Feijão");
         System.out.println((produto2.calcularDesconto()));
 
-        
-
     }
 }
